@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/pref"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="USER PROFILE"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/pref"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/sett"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/signOut"
+        android:layout_alignStart="@+id/signOut"
+        android:layout_below="@+id/signOut"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="UPDATE SETTINGS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:id="@+id/viewsett"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/sett"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray"
+     />
+
+
+    <TextView
+        android:id="@+id/dplan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Change Diet Plan"
+        android:textSize="24sp"
+        android:layout_below="@+id/sett"
+        android:layout_alignLeft="@+id/sett"
+        android:layout_alignStart="@+id/sett"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/dplan"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:id="@+id/notify"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Notifications"
+        android:textSize="24sp"
+        android:layout_below="@+id/dplan"
+        android:layout_alignLeft="@+id/dplan"
+        android:layout_alignStart="@+id/dplan"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/notify" />
+
+    <TextView
+        android:id="@+id/changePass"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/pref"
+        android:layout_alignStart="@+id/pref"
+        android:layout_below="@+id/pref"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Change Password"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/changePass" />
+
+    <TextView
+        android:id="@+id/signOut"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/changePass"
+        android:layout_alignStart="@+id/changePass"
+        android:layout_below="@+id/changePass"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Sign Out"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/viewsign"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/signOut" />
+
+</RelativeLayout>
